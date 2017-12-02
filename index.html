@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>To-Do List</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+      <h1>The List</h1>
+      <p id="intro">I got stuff to do today.</p>
+      <ol>
+        <!--This is where the Javascript will insert the To-Dos-->
+      </ol>
+      <p id="add_button">
+        <input id="addToDoText" type="text">
+        <button onclick="handlers.addToDos()">Add</button>
+      </p>
+      <p id="toggle_button">
+        <button onclick="handlers.toggleAll()">Check All</button>
+      </p>
+    <script src="index.js"></script>
+  </body>
+</html>
