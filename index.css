@@ -1,0 +1,38 @@
+body {
+  font-family: Verdana;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding-left: 20px;
+  width: 600px;
+}
+
+h1 {
+  font-family: Calibri;
+  font-size: 3em;
+  text-transform: uppercase;
+  line-height: 40%;
+}
+
+input {
+  width: 200px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid black;
+}
+
+ol input {
+  margin-left: 15px;
+  width: 150px;
+}
+
+button {
+  background-color: black;
+  border-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
